@@ -25,6 +25,13 @@ elif school=="School of management":
         print(n)
     else:
         print("not available")
+elif school=="School of Design":
+    print("Select options:\nB.des\nM.des")
+    n=input("Enter stream:")
+    if n=="Communication Design" or n=="Fashion Design" or n=="Industrial Design" or n=="UI/UX Design":
+        print(n)
+    else:
+        print("not available")
 s=int(input("Enter semester:"))
 h=input("Course name:")
 j=input("Course code:")
