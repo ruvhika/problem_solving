@@ -1,6 +1,7 @@
 n=int(input("Enter n:"))
 i=1
 p=1
+a=5
 while i<=n:
     j=1
     while j<=i:
