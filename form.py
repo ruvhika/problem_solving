@@ -2,6 +2,13 @@
 name=input("First Name: ")
 surname=input("Last Name:")
 email=input("email: ")
+while true:
+    email=input("email: ")
+    if '@' in email:
+        break
+    else 
+    print("invalid email id")
+    
 contact=int(input("Contact: "))
 school=input("school:")
 if school=="School of engineering":
