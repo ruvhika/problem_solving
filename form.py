@@ -1,34 +1,41 @@
 # solving a task
-name=input("First Name: ")
-surname=input("Last Name:")
+name = input("First Name: ")
+surname = input("Last Name:")
 
 while True:
-    email=input("email: ")
-    if '@' in email:
+    email = input("Email: ")
+    if '@' and '.' in email:
         break
-    else :
+    else:
         print("Invalid email id")
 
-contact=int(input("Contact: "))
-school=input("school:")
-if school=="School of engineering":
+while True:
+    contact = input("Contact: ")
+    if contact.isdigit() and len(contact) == 10:
+        break
+    else:
+        print("Invalid contact number. Should contain 10 digits.")
+
+school = input("School:")
+if school == "School of engineering":
     print("Select options:\nBtech\nBCA")
-    n=input("Enter stream:")
-    if n=="Btech" or n=="BCA":
+    n = input("Enter stream:")
+    if n in ["Btech", "BCA"]:
         print(n)
     else:
-        print("not available")
-elif school=="School of management":
+        print("Not available")
+elif school == "School of management":
     print("Select options:\nBBA\nMBA")
-    n=input("Enter stream:")
-    if n=="MBA" or n=="BBA":
+    n = input("Enter stream:")
+    if n in ["MBA", "BBA"]:
         print(n)
     else:
-        print("not available")
-s=int(input("Enter semester:"))
-h=input("Course name:")
-j=input("Course code:")
-k=input("Faculty name:")
+        print("Not available")
+
+s = int(input("Enter semester:"))
+h = input("Course name:")
+j = input("Course code:")
+k = input("Faculty name:")
 
 
 
