@@ -116,3 +116,32 @@ else:
     None
 
 print(o2)
+
+x=0
+print("overall ratings for the course")
+print("1.very poor")
+print("2.poor")
+print("3.good")
+print("4.very good")
+print("5.excellent")
+int(input("x="))
+
+if x==1:
+  o5="very good"
+
+
+elif x==2:
+    o5="poor"
+
+elif x==3:
+    o5="good"
+elif x==4:
+    o5="very good"
+
+elif x==5:
+    o5="excellent"
+
+else:
+    None
+
+print('o5')
