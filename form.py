@@ -85,5 +85,29 @@ elif b==4:
 
 else:
     None
+    r=0
+print(" Student teacher interaction in class :")
+print("1.Very Poor")
+print("2.Poor")
+print("3.Average")
+print("4.Good")
+print("5.Very Good")
+b=int(input("d="))
+
+if r==1:
+    o2="Very Poor"
+
+
+elif r==2:
+    o2="Poor"
+
+elif r==3:
+    o2="Average"
+    
+ elif r==3:
+    o2="Average"
+
+elif r==4:
+    o2="Very Good
 
 print(o2)
