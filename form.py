@@ -8,6 +8,10 @@ while True:
         break
     else :
         print("Invalid email id")
+        print("Enter behaviour of teacher")
+n=input("select option:")
+if n=="good" or n=="bad":
+    print(n)
 
 contact=int(input("Contact: "))
 school=input("school:")
@@ -87,32 +91,3 @@ else:
     None
 
 print(o2)
-c=0
-print("Communication skill of course lead")
-print("1.very poor")
-print("2.poor")
-print("3.Average")
-print("4.good")
-print("5.very good")
-c=int(input("c="))
-
-
-if c==1:
-    o3="Very Poor"
-
-
-elif c==2:
-    o3="Poor"
-
-elif c==3:
-    o3="Average"
-
-elif c==4:
-    o3="Good"
-
-elif c==5:
-    o3="Very Good"
-else:
-    None
-
-print(o3)
