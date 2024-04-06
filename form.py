@@ -39,7 +39,7 @@ print("Are you satisfied with the overall teaching of the course:")
 print("1.Highly Satisfied")
 print("2.Moderately Satisfied")
 print("3.Not Satisfied")
-int(input("a="))
+a=int(input("a="))
 
 if a==1:
     o1="Highly Satisfied"
