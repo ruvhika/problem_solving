@@ -18,7 +18,9 @@ elif school=="School of management":
         print(n)
     else:
         print("not available")
+a=int(input("Enter year:"))
 s=int(input("Enter semester:"))
 h=input("Course name:")
 j=input("Course code:")
 k=input("Faculty name:")
+
