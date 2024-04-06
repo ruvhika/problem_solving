@@ -1,14 +1,7 @@
 # solving a task
 name=input("First Name: ")
 surname=input("Last Name:")
-
-while True:
-    email=input("email: ")
-    if '@' in email:
-        break
-    else :
-        print("Invalid email id")
-
+email=input("email: ")
 contact=int(input("Contact: "))
 school=0
 print("School: \n1.School of Engineering \n2.School of Management \n3.School of Design \n4.School of laws and policy")
@@ -115,7 +108,6 @@ elif b==4:
 else:
     None
 
-
 print(o2)
 d=0
 print("Overall rating for the Course *")
@@ -146,5 +138,27 @@ else:
     None
 
 print(o4)
+
+
+f=0
+printf("course lead comes on time")
+print("1.No")
+print("2.Sometime")
+print("3.Always")
+f=int(input("f="))
+
+if f==1:
+    o6="No"
+
+
+elif f==2:
+    o6="Sometimes"
+
+elif f==3:
+    o6="Always"
+
+else:
+    None
+
 
 
