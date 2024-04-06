@@ -1,14 +1,7 @@
 # solving a task
 name=input("First Name: ")
 surname=input("Last Name:")
-
-while True:
-    email=input("email: ")
-    if '@' in email:
-        break
-    else :
-        print("Invalid email id")
-
+email=input("email: ")
 contact=int(input("Contact: "))
 school=input("school:")
 if school=="School of engineering":
@@ -86,4 +79,27 @@ elif b==4:
 else:
     None
 
-print(o2)
+z=0
+print("Behaviour of faculty with student :")
+print("1.Very Poor")
+print("2.Poor")
+print("3.Average")
+print("4.Good")
+print("5.Very Good")
+
+if b==1:
+    o2="Very Poor"
+
+
+elif b==2:
+    o2="Poor"
+
+elif b==3:
+    o2="Average"
+
+elif b==4:
+    o2="Very Good"
+
+else:
+    None
+
