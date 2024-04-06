@@ -1,14 +1,9 @@
 # solving a task
+print("Personal Info")
+
 name=input("First Name: ")
 surname=input("Last Name:")
-
-while True:
-    email=input("email: ")
-    if '@' in email:
-        break
-    else :
-        print("Invalid email id")
-
+email=input("email: ")
 contact=int(input("Contact: "))
 school=input("school:")
 if school=="School of engineering":
