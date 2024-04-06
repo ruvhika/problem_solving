@@ -67,7 +67,7 @@ print("1.Very Poor")
 print("2.Poor")
 print("3.Average")
 print("4.Good")
-print("3.Very Good")
+print("5.Very Good")
 b=int(input("b="))
 
 if b==1:
@@ -82,37 +82,11 @@ elif b==3:
 
 elif b==4:
     o2="Very Good"
+    
+elif b==4:
+    o2="Excellent"
 
 else:
     None
 
 print(o2)
-c=0
-print("Communication skill of course lead")
-print("1.very poor")
-print("2.poor")
-print("3.Average")
-print("4.good")
-print("5.very good")
-c=int(input("c="))
-
-
-if c==1:
-    o3="Very Poor"
-
-
-elif c==2:
-    o3="Poor"
-
-elif c==3:
-    o3="Average"
-
-elif c==4:
-    o3="Good"
-
-elif c==5:
-    o3="Very Good"
-else:
-    None
-
-print(o3)
