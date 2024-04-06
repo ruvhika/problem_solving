@@ -1,5 +1,5 @@
 # solving a task
-name=input("First Name: ")
+name=(input("Enter First Name = "))
 surname=input("Last Name:")
 email=input("email: ")
 contact=int(input("Contact: "))
@@ -80,3 +80,4 @@ else:
     None
 
 print(o2)
+
