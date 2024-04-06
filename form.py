@@ -29,12 +29,11 @@ s=int(input("Enter semester:"))
 h=input("Course name:")
 j=input("Course code:")
 k=input("Faculty name:")
-
-
-
-
-
-
+i=input("Is there any activity during session (yes/no):")
+if(i==yes):
+     print("Good")
+else:
+    print("Need of some activities during session")
 
 
 
