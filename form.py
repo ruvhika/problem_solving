@@ -60,7 +60,7 @@ print("1.Very Poor")
 print("2.Poor")
 print("3.Average")
 print("4.Good")
-print("3.Very Good")
+print("5.Very Good")
 b=int(input("b="))
 
 if b==1:
@@ -78,5 +78,6 @@ elif b==4:
 
 else:
     None
+
 
 print(o2)
