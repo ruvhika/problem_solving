@@ -4,14 +4,16 @@ surname=input("Last Name:")
 email=input("email: ")
 contact=int(input("Contact: "))
 school=input("school:")
-if school=="School of engineering":
+string1= "school of engineering"
+string2= "school of management"
+if school==string1:
     print("Select options:\nBtech\nBCA")
     n=input("Enter stream:")
     if n=="Btech" or n=="BCA":
         print(n)
     else:
         print("not available")
-elif school=="School of management":
+elif school==string2:
     print("Select options:\nBBA\nMBA")
     n=input("Enter stream:")
     if n=="MBA" or n=="BBA":
