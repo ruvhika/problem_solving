@@ -29,9 +29,6 @@ k=input("Faculty name:")
 
 
 
-
-
-
 print("Feedback Form")
 
 a=0
