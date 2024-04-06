@@ -117,3 +117,34 @@ else:
 
 
 print(o2)
+d=0
+print("Overall rating for the Course *")
+print("1.very poor")
+print("2.poor")
+print("3.Average")
+print("4.good")
+print("5.very good")
+c=int(input("c="))
+
+
+if d==1:
+    o4="Very Poor"
+
+
+elif d==2:
+    o4="Poor"
+
+elif d==3:
+    o4="Average"
+
+elif d==4:
+    o4="Good"
+
+elif d==5:
+    o4="Very Good"
+else:
+    None
+
+print(o4)
+
+
