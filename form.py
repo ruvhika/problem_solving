@@ -10,34 +10,60 @@ while True:
         print("Invalid email id")
 
 contact=int(input("Contact: "))
-school=input("school:")
-if school=="School of engineering":
-    print("Select options:\nBtech\nBCA")
-    n=input("Enter stream:")
-    if n=="Btech" or n=="BCA":
-        print(n)
+school=0
+print("School: \n1.School of Engineering \n2.School of Management \n3.School of Design \n4.School of laws and policy")
+school=int(input("Enter school:"))
+if school==1:
+    print("School of Engineering")
+    print("Select discipline \n 1.Btech\n 2.BCA")
+    d=0
+    d=int(input("Enter displine: "))
+    
+    if d==1:
+        print("BTech")
+    elif d==2:
+        print("BCA")
     else:
-        print("not available")
-elif school=="School of management":
-    print("Select options:\nBBA\nMBA")
-    n=input("Enter stream:")
-    if n=="MBA" or n=="BBA":
-        print(n)
+        None
+elif school==2:
+    print("School of Management")
+    print("Select discipline \n 1.BBA\n 2.MBA")
+    d=0
+    d=int(input("Enter displine: "))
+    
+    if d==1:
+        print("BBA")
+    elif d==2:
+        print("MBA")
     else:
-        print("not available")
+        None
+elif school==3:
+    print("School of Design")
+    print("Select discipline \n 1.BDes\n 2.MDes")
+    d=0
+    d=int(input("Enter displine: "))
+    
+    if d==1:
+        print("BDes")
+    elif d==2:
+        print("MDes")
+    else:
+        None
+elif school==4:
+    print("School of laws and policy")
+    print("Select discipline \n 1.LLB\n ")
+    d=0
+    d=int(input("Enter displine: "))
+    
+    if d==1:
+        print("LLB")
+    else:
+        None
+
 s=int(input("Enter semester:"))
 h=input("Course name:")
 j=input("Course code:")
 k=input("Faculty name:")
-
-
-
-
-
-
-
-
-
 
 print("Feedback Form")
 
