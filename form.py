@@ -85,7 +85,7 @@ print("1.Very Poor")
 print("2.Poor")
 print("3.Average")
 print("4.Good")
-print('5.Excellent")
+print("5.Excellent")
 c=int(input("c="))
 
 if c==1:
