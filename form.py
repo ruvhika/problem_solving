@@ -87,3 +87,32 @@ else:
     None
 
 print(o2)
+h=0
+print("Overall rating for the course :")
+print("1.Very Poor")
+print("2.Poor")
+print("3.Good")
+print("4.very Good")
+print("5.Excellent")
+b=int(input("h="))
+
+if b==1:
+    o8="Very Poor"
+
+
+elif b==2:
+    o8="Poor"
+
+elif b==3:
+    o8="Good"
+
+elif b==4:
+    o8="Very Good"
+
+elif b==5:
+    08="Excellent"
+
+else:
+    None
+
+print(o8)
