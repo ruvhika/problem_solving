@@ -8,6 +8,10 @@ while True:
         break
     else :
         print("Invalid email id")
+        print("Enter behaviour of teacher")
+n=input("select option:")
+if n=="good" or n=="bad":
+    print(n)
 
 contact=int(input("Contact: "))
 school=0
