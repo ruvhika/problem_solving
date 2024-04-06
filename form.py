@@ -1,4 +1,6 @@
 # solving a task
+Date=int(input("Enter date: "))
+Day=input("Enter day:")
 name=input("First Name: ")
 surname=input("Last Name:")
 email=input("email: ")
