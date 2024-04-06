@@ -1,2 +1,2 @@
 # solving a task
-print(
+name=(input("Enter First Name = "))
