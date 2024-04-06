@@ -27,6 +27,10 @@ elif school=="School of management":
         print("not available")
 s=int(input("Enter semester:"))
 h=input("Course name:")
+print ("teacher come in class:")
+n=input("select a option:")
+if n=="yes" or n=="no":
+    print (n)
 j=input("Course code:")
 k=input("Faculty name:")
 
