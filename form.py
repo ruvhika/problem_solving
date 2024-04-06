@@ -67,20 +67,23 @@ print("1.Very Poor")
 print("2.Poor")
 print("3.Average")
 print("4.Good")
-print("3.Very Good")
+print("5.Very Good")
 b=int(input("b="))
 
 if b==1:
     o2="Very Poor"
-
+    
 
 elif b==2:
     o2="Poor"
 
 elif b==3:
     o2="Average"
-
+    
 elif b==4:
+    o2="Good"
+
+elif b==5:
     o2="Very Good"
 
 else:
