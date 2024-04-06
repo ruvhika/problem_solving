@@ -109,7 +109,7 @@ else:
     None
 
 d=0
-print("Communication skills of the Course Lead :")
+print("Lectures were delivered at a pace that is :")
 print("1.Very Poor")
 print("2.Poor")
 print("3.Average")
@@ -138,7 +138,7 @@ else:
 
 
 e=0
-print("Communication skills of the Course Lead :")
+print("Does the Instructor punctually come for the lectures / leave on time :")
 print("1.Very Poor")
 print("2.Poor")
 print("3.Average")
