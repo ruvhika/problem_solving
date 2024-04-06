@@ -142,3 +142,33 @@ else:
     None
 
 print(o3)
+
+g=0
+print("The course substantially improved my knowledge level :")
+print("1.Strongly Disagree")
+print("2.Disagree")
+print("3.Neutral")
+print("4.Agree")
+print("5.Strongly Agree")
+b=int(input("h="))
+
+if g==1:
+    o7="Strongly Disagree"
+
+
+elif g==2:
+    o7="Disagree"
+
+elif g==3:
+    o7="Neutral"
+
+elif g==4:
+    o7="Agree"
+
+elif g==5:
+    o7="Strongly Agree"
+
+else:
+    None
+
+print(o7)
