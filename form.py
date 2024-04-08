@@ -66,17 +66,16 @@ print("Are you satisfied with the overall teaching of the course:")
 print("1.Highly Satisfied")
 print("2.Moderately Satisfied")
 print("3.Not Satisfied")
-int(input("a="))
+a=int(input("a="))
 
 if a==1:
-    o1="Highly Satisfied"
+     print('Highly Satisfied')
 
 
 elif a==2:
-    o1="Moderately Satisfied"
-
+    print('Moderately Satisfied')
 elif a==3:
-    o1=".Not Satisfied"
+    print('Not Satisfied')
 
 else:
     None
@@ -91,99 +90,97 @@ print("5.Very Good")
 b=int(input("b="))
 
 if b==1:
-    o2="Very Poor"
+     print("Very Poor")
 
 
 elif b==2:
-    o2="Poor"
+  print("Poor")
 
 elif b==3:
-    o2="Average"
+  print("Average")
 
 elif b==4:
-    o2="Very Good"
+   print("Good")
     
-elif b==4:
-    o2="Excellent"
+elif b==5:
+   print("Very Good")
 
 else:
     None
-r=0
+c=0
 print(" Student-teacher interaction in class :")
 print("1.Very Poor")
 print("2.Poor")
 print("3.Average")
 print("4.Good")
 print("5.Very Good")
-b=int(input("d="))
+c=int(input("c="))
 
-if r==1:
-    o3="Very Poor"
+if c==1:
+  print("Very Poor")
 
 
-elif r==2:
-    o3="Poor"
-
-elif r==3:
-    o3="Average"
+elif c==2:
+     print("Poor")
     
-elif r==3:
-    o3="Average"
+elif c==3:
+   print("Average")
+    
+elif c==4:
+     print("Good")
 
-elif r==4:
-    o2="Very Good"
-
-print(o2)
+elif c==5:
+     print("Very Good")
+else:
+    None
 
 d=0
+print("course lead comes on time")
+print("1.No")
+print("2.Sometime")
+print("3.Always")
+d=int(input("d="))
+
+if d==1:
+     print("No")
+
+
+elif d==2:
+    print("Sometimes")
+
+elif d==3:
+      print("Always")
+else:
+    None
+
+e=0
 print("Overall rating for the Course *")
 print("1.very poor")
 print("2.poor")
 print("3.Average")
 print("4.good")
 print("5.very good")
-c=int(input("c="))
+e=int(input("e="))
 
 
-if d==1:
-    o4="Very Poor"
+if e==1:
+   print("Very Poor")
 
 
-elif d==2:
-    o4="Poor"
+elif e==2:
+   print("Poor")
 
-elif d==3:
-    o4="Average"
+elif e==3:
+   print("Average")
 
-elif d==4:
-    o4="Good"
+elif e==4:
+    print("Good")
 
-elif d==5:
-    o4="Very Good"
+elif e==5:
+      print("Very Good")
 else:
     None
 
-print(o4)
-
-f=0
-printf("course lead comes on time")
-print("1.No")
-print("2.Sometime")
-print("3.Always")
-f=int(input("f="))
-
-if f==1:
-    o6="No"
-
-
-elif f==2:
-    o6="Sometimes"
-
-elif f==3:
-    o6="Always"
-
-else:
-    None
 
 
 
