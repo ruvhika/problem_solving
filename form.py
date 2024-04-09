@@ -11,7 +11,7 @@ if school==1:
     print("School of Engineering")
     print("Select discipline \n 1.Btech\n 2.BCA")
     d=0
-    d=int(input("Enter displine: "))
+    d=int(input("Enter discipline: "))
     
     if d==1:
         print("BTech")
@@ -66,7 +66,7 @@ print("Are you satisfied with the overall teaching of the course:")
 print("1.Highly Satisfied")
 print("2.Moderately Satisfied")
 print("3.Not Satisfied")
-int(input("a="))
+a=int(input("a="))
 
 if a==1:
     o1="Highly Satisfied"
@@ -76,7 +76,7 @@ elif a==2:
     o1="Moderately Satisfied"
 
 elif a==3:
-    o1=".Not Satisfied"
+    o1="Not Satisfied"
 
 else:
     None
@@ -93,7 +93,6 @@ b=int(input("b="))
 if b==1:
     o2="Very Poor"
 
-
 elif b==2:
     o2="Poor"
 
@@ -108,6 +107,7 @@ elif b==4:
 
 else:
     None
+    
 r=0
 print(" Student-teacher interaction in class :")
 print("1.Very Poor")
@@ -115,7 +115,7 @@ print("2.Poor")
 print("3.Average")
 print("4.Good")
 print("5.Very Good")
-b=int(input("d="))
+r=int(input("r="))
 
 if r==1:
     o3="Very Poor"
@@ -131,18 +131,18 @@ elif r==3:
     o3="Average"
 
 elif r==4:
-    o2="Very Good"
+    o3="Very Good"
 
-print(o2)
+
 
 d=0
-print("Overall rating for the Course *")
+print("Overall rating for the Course :")
 print("1.very poor")
 print("2.poor")
 print("3.Average")
 print("4.good")
 print("5.very good")
-c=int(input("c="))
+d=int(input("d="))
 
 
 if d==1:
@@ -166,7 +166,7 @@ else:
 print(o4)
 
 f=0
-printf("course lead comes on time")
+print("Course lead comes on time:")
 print("1.No")
 print("2.Sometime")
 print("3.Always")
@@ -184,6 +184,121 @@ elif f==3:
 
 else:
     None
+
+x=0
+print("Communication skill of course lead:")
+print("1.very poor")
+print("2.poor")
+print("3.Average")
+print("4.good")
+print("5.very good")
+x=int(input("x="))
+
+if x==1:
+    o8="very poor"
+
+
+elif x==2:
+    o8="Poor"
+
+elif x==3:
+    o8="Average"
+
+elif x==4:
+    o8="Good"
+
+elif x==5:
+    o8="Very Good"
+
+else:
+    None
+
+y=0
+print("Would you like to have another course with course lead:")
+print("1.Yes")
+print("2.No")
+y=int(input("y="))
+if y==1:
+    o9="Yes"
+
+
+elif x==2:
+    o9="No"
+
+else:
+    None
+
+z=0
+print("The course was organized to help me to learn:")
+print("1.Strongly disagree")
+print("2.Disagree")
+print("3.Neutral")
+print("4.Agree")
+print("5.Strongly agree")
+z=int(input("z="))
+
+if z==1:
+    o10="Strongly disagree"
+
+
+elif z==2:
+    o10="Disagree"
+
+elif z==3:
+    o10="Neutral"
+
+elif z==4:
+    o10="Agree"
+
+elif z==5:
+    o10="Strongly Agree"
+
+else:
+    None
+
+p=0
+print("The course substantially improved my knowledge level:")
+print("1.Strongly disagree")
+print("2.Disagree")
+print("3.Neutral")
+print("4.Agree")
+print("5.Strongly agree")
+p=int(input("p="))
+
+if p==1:
+    o11="Strongly disagree"
+
+
+elif p==2:
+    o11="Disagree"
+
+elif p==3:
+    o11="Neutral"
+
+elif p==4:
+    o11="Agree"
+
+elif p==5:
+    o11="Strongly Agree"
+
+else:
+    None
+
+print("What changes in way of course delivery will you recommend.")
+ans=input("Ans=")
+
+print("What did you like most about course instructor.")
+ans1=input("Ans=")
+
+print("What did you like least about the course instructor.")
+ans2=input("Ans=")
+
+print("Identify one thing that can help to improve the course.")
+ans3=input("Ans=")
+
+
+
+
 
 
 
