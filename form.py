@@ -10,20 +10,20 @@ school=int(input("Enter school:"))
 if school==1:
     print("School of Engineering")
     print("Select discipline \n 1.Btech\n 2.BCA")
-    d=0
-    d=int(input("Enter displine: "))
+    p=0
+    p=int(input("Enter Program: "))
     
-    if d==1:
+    if p==1:
         print("BTech")
-    elif d==2:
+    elif p==2:
         print("BCA")
     else:
         None
 elif school==2:
     print("School of Management")
-    print("Select discipline \n 1.BBA\n 2.MBA")
-    d=0
-    d=int(input("Enter displine: "))
+    print("Select Program \n 1.BBA\n 2.MBA")
+    p=0
+    p=int(input("Enter Program: "))
     
     if d==1:
         print("BBA")
@@ -33,27 +33,27 @@ elif school==2:
         None
 elif school==3:
     print("School of Design")
-    print("Select discipline \n 1.BDes\n 2.MDes")
-    d=0
-    d=int(input("Enter displine: "))
+    print("Select Program\n 1.BDes\n 2.MDes")
+    p=0
+    p=int(input("Enter displine: "))
     
-    if d==1:
+    if p==1:
         print("BDes")
-    elif d==2:
+    elif p==2:
         print("MDes")
     else:
         None
 elif school==4:
     print("School of laws and policy")
-    print("Select discipline \n 1.LLB\n ")
-    d=0
-    d=int(input("Enter displine: "))
+    print("Select Program \n 1.LLB\n ")
+    p=0
+    p=int(input("Enter Program: "))
     
-    if d==1:
+    if p==1:
         print("LLB")
     else:
         None
-
+d=input("Enter discipline:"))
 s=int(input("Enter semester:"))
 h=input("Course name:")
 j=input("Course code:")
