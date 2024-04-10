@@ -66,7 +66,7 @@ print("Are you satisfied with the overall teaching of the course:")
 print("1.Highly Satisfied")
 print("2.Moderately Satisfied")
 print("3.Not Satisfied")
-a=int(input("a="))
+a=int(input("select option="))
 
 if a==1:
     o1="Highly Satisfied"
@@ -88,7 +88,7 @@ print("2.Poor")
 print("3.Average")
 print("4.Good")
 print("5.Very Good")
-b=int(input("b="))
+b=int(input("select option="))
 
 if b==1:
     o2="Very Poor"
@@ -115,7 +115,7 @@ print("2.Poor")
 print("3.Average")
 print("4.Good")
 print("5.Very Good")
-r=int(input("r="))
+r=int(input("select option="))
 
 if r==1:
     o3="Very Poor"
@@ -142,7 +142,7 @@ print("2.poor")
 print("3.Average")
 print("4.good")
 print("5.very good")
-d=int(input("d="))
+d=int(input("select option="))
 
 
 if d==1:
@@ -170,7 +170,7 @@ print("Course lead comes on time:")
 print("1.No")
 print("2.Sometime")
 print("3.Always")
-f=int(input("f="))
+f=int(input("select option="))
 
 if f==1:
     o6="No"
@@ -192,7 +192,7 @@ print("2.poor")
 print("3.Average")
 print("4.good")
 print("5.very good")
-x=int(input("x="))
+x=int(input("select option="))
 
 if x==1:
     o8="very poor"
@@ -217,7 +217,7 @@ y=0
 print("Would you like to have another course with course lead:")
 print("1.Yes")
 print("2.No")
-y=int(input("y="))
+y=int(input("select option="))
 if y==1:
     o9="Yes"
 
@@ -235,7 +235,7 @@ print("2.Disagree")
 print("3.Neutral")
 print("4.Agree")
 print("5.Strongly agree")
-z=int(input("z="))
+z=int(input("select option="))
 
 if z==1:
     o10="Strongly disagree"
@@ -263,7 +263,7 @@ print("2.Disagree")
 print("3.Neutral")
 print("4.Agree")
 print("5.Strongly agree")
-p=int(input("p="))
+p=int(input("select option="))
 
 if p==1:
     o11="Strongly disagree"
@@ -295,6 +295,34 @@ ans2=input("Ans=")
 
 print("Identify one thing that can help to improve the course.")
 ans3=input("Ans=")
+
+
+if f==1:
+    print(name)
+    print(email)
+    print(contact)
+    print(school)
+    print(s)
+    print(h)
+    print(j)
+    print(k)
+    print()
+    print("Feedback Form")
+    print(o1)
+    print(o2)
+    print(o3)
+    print(o4)
+    print(o5)
+    print(o6)
+    print(o7)
+    print(o8)
+    print(o7)
+    print(o8)
+    print(o9)
+    print(o10)
+
+else:
+    None
 
 
 
