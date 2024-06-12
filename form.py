@@ -3,6 +3,13 @@ print("Student feedback form:")
 name=input("First Name: ")
 surname=input("Last Name:")
 email=input("email: ")
+while true:
+    email=input("email: ")
+    if '@' in email:
+        break
+    else 
+    print("invalid email id")
+    
 contact=int(input("Contact: "))
 school=0
 print("School: \n1.School of Engineering \n2.School of Management \n3.School of Design \n4.School of laws and policy")
